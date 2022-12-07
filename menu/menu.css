@@ -23,8 +23,12 @@ body {
     display: flex;
     padding: 23px 24px 57px 24px;
 }
+.burger__header img:hover{
+    filter: opacity(0.5);
+}
 .burger__header_left {
     padding: 0;
+    cursor: pointer;
 }
 .burger__header_left_1 {
     background-color: #FF3E79;
@@ -45,7 +49,7 @@ body {
 .burger__header_right {
    margin-left: auto;
    padding: 0;
-
+   cursor: pointer;
 }
 .burger__header_right_1 {
     background-color: #FF3E79;
@@ -66,6 +70,12 @@ body {
 .burger__content li {
     padding-left: 24px;
     margin-bottom: 32px;
+    cursor: pointer;
+}
+.burger__content li:hover {
+    opacity: 0.5;
+    border: 1px solid #7E7E82;
+    padding: 5px;
 }
 ul {
     margin: 0;
@@ -85,7 +95,6 @@ li {
 }
 .burger__footer__icons {
     display: flex;
-
     padding-bottom: 16px;
     margin-right: 16px;
 }
@@ -101,6 +110,9 @@ li {
     align-items: center;
     justify-content: center;
     cursor: pointer;   
+}
+.burger__footer__icons img:hover {
+    filter: opacity(0.5);
 }
 .burger__footer__icons_2 {
     background-color: #FF3E79;
@@ -131,17 +143,29 @@ li {
 .burger__footer__email {
     margin: 0;
     margin-bottom: 12px;
+    cursor: pointer;
+}
+.burger__footer__email:hover {
+    text-decoration: underline;
 }
 .burger__footer__phone {
     margin: 0;
     font-weight: bold;
     font-size: 24px;
+    cursor: pointer;
+}
+.burger__footer__phone:hover {
+    filter: opacity(0.5);
 }
 .burger__footer__lang {
     margin-top: 40px;
 }
 .burger__footer__lang li {
-    
+    cursor: pointer;
+}
+.burger__footer__lang li:hover {
+    filter: opacity(0.5);
+    text-decoration: underline;
 }
 .burger__footer__lang ul {
     display: flex;
